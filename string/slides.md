@@ -167,28 +167,21 @@ int main () {}
 ```c
 # include <stdio.h>
 int main () {
-  char[] season = "winter";
+  char season[] = "winter";
 }
 ```
 ```c
 # include <stdio.h>
 int main () {
-  char[] season = "winter";
+  char season[] = "winter";
   // length of string??
 }
 ```
 ```c
 # include <stdio.h>
+#include <string.h>
 int main () {
-  char[] season = "winter";
-  // length of string??
-  printf("", strlen(season));
-}
-```
-```c
-# include <stdio.h>
-int main () {
-  char[] season = "winter";
+  char season[] = "winter";
   // length of string??
   printf("length= %d", strlen(season));
 }
@@ -288,3 +281,13 @@ int main() {
 }
 ```
 ````
+
+---
+layout: center
+transition: fade
+---
+
+##Tasks
+
+1. Determine length of string without using builtin function
+2. Are 'aabbaa' & 'aabaab' equal?
